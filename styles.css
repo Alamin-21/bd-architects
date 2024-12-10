@@ -30,12 +30,10 @@ header nav a {
     font-weight: bold;
 }
 
-
 header nav a:hover {
     color: #ff9800; /* Change color on hover */
     text-decoration: underline; /* Add underline on hover */
 }
-
 
 .hero {
     text-align: center;
@@ -74,5 +72,40 @@ header nav a:hover {
 .image-section img {
     max-width: 100%;
     border-radius: 10px;
+    
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-row-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.image-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.image-right {
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.image-row img {
+    width: 48%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
 }
